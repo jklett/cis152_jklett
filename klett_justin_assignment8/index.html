@@ -14,14 +14,39 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>{FIRST NAME}'s Table</h1>
+                <h1>Justin's Table</h1>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
 
                 <table class="table table-bordered">
-                    <!-- build your table in here -->
+                    
+                    <tr>
+                        <th>Column1</th>
+                        <th>Column2</th>
+                        <th>Column3</th>
+                        <th>Column4</th>
+                    </tr>
+                    <tr>
+                        <td id="cell1">1</td>
+                        <td id="cell2">2</td>
+                        <td id="cell3">3</td>
+                        <td id="cell4">4</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">5</td>
+                        <td>6</td>
+                        <td rowspan="3" id="cell7">7</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" id="cell11">11</td>
+                    </tr>
                 </table>
 
             </div>

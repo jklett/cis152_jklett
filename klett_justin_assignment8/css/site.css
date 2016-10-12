@@ -1,0 +1,41 @@
+body {
+    font-weight: bolder;
+}
+
+.container {
+    border: solid 1px blue;
+}
+
+td {
+    text-align: center;
+}
+
+#cell1 {
+    color: white;
+    background-color: darkmagenta;
+}
+
+#cell2 {
+    color: white;
+    background-color: darkgreen;
+}
+
+#cell3 {
+    color: white;
+    background-color: blue;
+}
+
+#cell4 {
+    color: white;
+    background-color: red;
+}
+
+#cell7 {
+    color: yellow;
+    background-color: black;
+}
+
+#cell11 {
+    color: lightgrey;
+    background-color: magenta;
+}
