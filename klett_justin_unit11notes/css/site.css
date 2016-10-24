@@ -1,0 +1,18 @@
+.header {
+    background-color: aqua;
+    color: brown;
+    border: purple 5px dashed;
+    height: 100px;
+}
+
+.col-md-6 {
+    text-align: center;
+}
+
+.firsthalf {
+    background-color: bisque;
+}
+
+.secondhalf {
+    background-color: chocolate;
+}
